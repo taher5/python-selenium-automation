@@ -1,0 +1,12 @@
+
+Fields                                  Locators
+
+Amazon logo                             Search by XPATH     "//i[@class='a-icon a-icon-logo']"
+Email field                             Search by ID        "ap_email"
+Continue button                         Search by XPATH     "//input[@class='a-button-input']"
+Need help link                          Search by XPATH     "//a[@class='a-expander-header a-declarative a-expander-inline-header a-link-expander']"
+Forgot your password link               Search by ID        "auth-fpp-link-bottom]"
+Other issues with Sign-In link          Search by ID        "ap-other-signin-issues-link"
+Create your Amazon account button       Search by ID        "createAccountSubmit"
+*Conditions of use link                 Search by LinkText  "Conditions of Use"
+*Privacy Notice link                    Search by LinkText  "Privacy Notice"

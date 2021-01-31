@@ -1,6 +1,10 @@
-# Created by sam at 1/24/2021
-Feature: # Enter feature name here
-  # Enter feature description here
+# Created by Svetlana at 4/4/19
+Feature: Test Scenarios for Search functionality
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can search for a product
+    Given Open Amazon page
+    When Input DRESS into Amazon search field
+    And Click on Amazon search icon
+    Then Product results for DRESS are shown on Amazon
+    And First result contains DRESS
+

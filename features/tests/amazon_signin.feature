@@ -1,6 +1,7 @@
-# Created by sam at 1/31/2021
-Feature: # Enter feature name here
-  # Enter feature description here
+# Created by Svetlana at 4/4/19
+Feature: Test Scenarios for Search functionality
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Logged out user sees Sign in page when clicking Orders
+    Given Open Amazon page
+    When Click Orders
+    Then Verify Sign in page opened
